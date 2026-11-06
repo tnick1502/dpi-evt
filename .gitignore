@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+dist/
+build/
+*.egg-info/
+# Restricted laboratory inputs and local run outputs.
+data/sites/
+data/final_run/
+data/private/
+results/experiments/
+results/controls/
+results/onset_intervals/
+results/smoke/
+results/control_smoke/
+results/external/
+*.pt
+*.joblib
+*.pickle
+*.pkl

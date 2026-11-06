@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+type: software
+title: "DPI-EVT: early-cycle pore-pressure and threshold-time forecasting"
+authors:
+  - family-names: Tishin
+    given-names: "Nikita R."
+    email: tnick1502@mail.ru
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/tnick1502/dpi-evt"
+url: "https://github.com/tnick1502/dpi-evt"
+abstract: >-
+  Structured accumulation models, site-held-out evaluation, matched controls
+  and onset-interval calibration for early-cycle forecasts of pore-pressure
+  envelopes and pressure-threshold timing.

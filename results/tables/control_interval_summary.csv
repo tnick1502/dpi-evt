@@ -1,0 +1,73 @@
+model,label,source,target,coverage,mean_width_H,median_width_H,event_forecasts,unique_events
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,Adapazari,0.9,0.8333333333333334,77.5987861674803,69.51974962313272,690,46
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,Adapazari,0.95,0.8521739130434782,86.81775201975735,77.56488166968415,690,46
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,Christchurch,0.9,0.9422222222222222,80.80663046580996,77.51626749439437,225,15
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,Christchurch,0.95,0.9822222222222222,90.40552363813008,90.55227167271354,225,15
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,KFS-TCUA,0.9,0.7333333333333333,190.98435934752752,212.826464262886,15,1
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,KFS-TCUA,0.95,0.8666666666666667,216.2641376048614,218.59114483586373,15,1
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,KFS-TCUI,0.9,0.8133333333333334,244.01306217060505,213.5152457097616,300,20
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,KFS-TCUI,0.95,0.8933333333333333,282.318142630116,234.97347160969943,300,20
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,LEAP-2017,0.9,0.8705882352941177,164.60896193248013,113.75197167508566,255,17
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,LEAP-2017,0.95,0.9411764705882352,193.50598545135728,132.72906451071069,255,17
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,internal,0.9,0.8877551020408163,403.4669041086634,185.1002669938539,1470,490
+dpi_no_drift_A,DPI-EVT +A/no reciprocal drift,internal,0.95,0.9455782312925172,451.98044784947865,207.6973541079364,1470,490
+hybrid_projection,Threshold-projected Transformer/GBM,Adapazari,0.9,0.4913043478260869,29.503844147209048,21.600471686768852,690,46
+hybrid_projection,Threshold-projected Transformer/GBM,Adapazari,0.95,0.5797101449275363,36.901983750942165,29.00564861303687,690,46
+hybrid_projection,Threshold-projected Transformer/GBM,Christchurch,0.9,0.68,22.98471094309283,18.327299614558548,225,15
+hybrid_projection,Threshold-projected Transformer/GBM,Christchurch,0.95,0.7777777777777778,28.73001299483487,25.720108360075976,225,15
+hybrid_projection,Threshold-projected Transformer/GBM,KFS-TCUA,0.9,0.5333333333333333,67.91695282855773,82.44214020853526,15,1
+hybrid_projection,Threshold-projected Transformer/GBM,KFS-TCUA,0.95,0.6,82.99377822663327,85.27840780892245,15,1
+hybrid_projection,Threshold-projected Transformer/GBM,KFS-TCUI,0.9,0.3666666666666666,668.4556572058569,90.35769084270596,300,20
+hybrid_projection,Threshold-projected Transformer/GBM,KFS-TCUI,0.95,0.4533333333333333,762.4946274627262,116.30758185245966,300,20
+hybrid_projection,Threshold-projected Transformer/GBM,LEAP-2017,0.9,0.5372549019607843,151.01004599166748,34.89057138172564,255,17
+hybrid_projection,Threshold-projected Transformer/GBM,LEAP-2017,0.95,0.6627450980392157,174.7865309816075,53.77868421241275,255,17
+hybrid_projection,Threshold-projected Transformer/GBM,internal,0.9,0.8761904761904762,138.80520029167627,80.93527758441247,1470,490
+hybrid_projection,Threshold-projected Transformer/GBM,internal,0.95,0.923809523809524,176.73131073746674,114.97983049255596,1470,490
+hybrid_timewarp,Time-warped Transformer/GBM,Adapazari,0.9,0.4869565217391304,29.488710685430085,21.525217134545187,690,46
+hybrid_timewarp,Time-warped Transformer/GBM,Adapazari,0.95,0.5811594202898551,36.91682364617744,29.129507535990523,690,46
+hybrid_timewarp,Time-warped Transformer/GBM,Christchurch,0.9,0.6844444444444444,22.974345544297737,18.32186444566181,225,15
+hybrid_timewarp,Time-warped Transformer/GBM,Christchurch,0.95,0.7733333333333333,28.740372826257133,25.79039335620434,225,15
+hybrid_timewarp,Time-warped Transformer/GBM,KFS-TCUA,0.9,0.5333333333333333,67.80161031763957,82.31570978507762,15,1
+hybrid_timewarp,Time-warped Transformer/GBM,KFS-TCUA,0.95,0.6,82.88347079616324,85.71516625301716,15,1
+hybrid_timewarp,Time-warped Transformer/GBM,KFS-TCUI,0.9,0.37,668.4867946590394,90.63882284402357,300,20
+hybrid_timewarp,Time-warped Transformer/GBM,KFS-TCUI,0.95,0.4566666666666666,762.5293937414503,115.7148079352531,300,20
+hybrid_timewarp,Time-warped Transformer/GBM,LEAP-2017,0.9,0.5333333333333333,150.96489706040873,35.3919569564724,255,17
+hybrid_timewarp,Time-warped Transformer/GBM,LEAP-2017,0.95,0.6627450980392157,174.74681439159616,53.51186359541765,255,17
+hybrid_timewarp,Time-warped Transformer/GBM,internal,0.9,0.8761904761904762,138.69008149773782,80.92662106015098,1470,490
+hybrid_timewarp,Time-warped Transformer/GBM,internal,0.95,0.9231292517006804,176.6212114668464,115.03259487955722,1470,490
+transformer_curveA,Transformer matched +A/crossing loss,Adapazari,0.9,0.4130434782608695,337.8367625021737,14.724193911579473,690,46
+transformer_curveA,Transformer matched +A/crossing loss,Adapazari,0.95,0.4579710144927536,362.5502269419092,16.567834272890778,690,46
+transformer_curveA,Transformer matched +A/crossing loss,Christchurch,0.9,0.6266666666666667,222.8162922971732,16.95857610204208,225,15
+transformer_curveA,Transformer matched +A/crossing loss,Christchurch,0.95,0.6711111111111111,234.26195239875065,20.281105540810927,225,15
+transformer_curveA,Transformer matched +A/crossing loss,KFS-TCUA,0.9,0.7333333333333333,157.28688980262123,143.44532173885318,15,1
+transformer_curveA,Transformer matched +A/crossing loss,KFS-TCUA,0.95,1.0,182.84462197326627,157.47558916083057,15,1
+transformer_curveA,Transformer matched +A/crossing loss,KFS-TCUI,0.9,0.74,427.1417100119539,154.54666940484051,300,20
+transformer_curveA,Transformer matched +A/crossing loss,KFS-TCUI,0.95,0.8,483.8382972505775,177.75957412488972,300,20
+transformer_curveA,Transformer matched +A/crossing loss,LEAP-2017,0.9,0.8,197.74041048115973,37.04995981444738,255,17
+transformer_curveA,Transformer matched +A/crossing loss,LEAP-2017,0.95,0.8745098039215686,222.964280394015,41.049593297968435,255,17
+transformer_curveA,Transformer matched +A/crossing loss,internal,0.9,0.8612244897959184,418.2289066353834,180.90677038644915,1470,490
+transformer_curveA,Transformer matched +A/crossing loss,internal,0.95,0.9129251700680272,468.5423351126948,206.00077807013895,1470,490
+transformer_curveP,Transformer matched +P/crossing loss,Adapazari,0.9,0.4347826086956521,126.5914243469183,20.17635923339972,690,46
+transformer_curveP,Transformer matched +P/crossing loss,Adapazari,0.95,0.5043478260869565,164.23477743494556,22.72371923398284,690,46
+transformer_curveP,Transformer matched +P/crossing loss,Christchurch,0.9,0.7422222222222222,76.40787177398316,25.15667942250913,225,15
+transformer_curveP,Transformer matched +P/crossing loss,Christchurch,0.95,0.7777777777777778,94.23442840290592,27.971162331933584,225,15
+transformer_curveP,Transformer matched +P/crossing loss,KFS-TCUA,0.9,0.4,282.669300722306,165.97985280088267,15,1
+transformer_curveP,Transformer matched +P/crossing loss,KFS-TCUA,0.95,0.6,338.8993832031422,185.2745279059605,15,1
+transformer_curveP,Transformer matched +P/crossing loss,KFS-TCUI,0.9,0.5633333333333334,561.0111384187294,182.6800548736724,300,20
+transformer_curveP,Transformer matched +P/crossing loss,KFS-TCUI,0.95,0.7133333333333334,647.5357700541596,211.02661087112844,300,20
+transformer_curveP,Transformer matched +P/crossing loss,LEAP-2017,0.9,0.6784313725490196,294.0424110201373,56.577039761472335,255,17
+transformer_curveP,Transformer matched +P/crossing loss,LEAP-2017,0.95,0.8392156862745098,343.3339215952594,66.6529765080307,255,17
+transformer_curveP,Transformer matched +P/crossing loss,internal,0.9,0.8707482993197279,340.15239244698375,165.58833758749105,1470,490
+transformer_curveP,Transformer matched +P/crossing loss,internal,0.95,0.9340136054421768,410.1310460729655,199.47911974214983,1470,490
+transformer_headP,Transformer matched +P/head loss,Adapazari,0.9,0.4188405797101449,35.56734675224445,13.35176355198168,690,46
+transformer_headP,Transformer matched +P/head loss,Adapazari,0.95,0.4782608695652174,43.367918165738764,17.896176838983443,690,46
+transformer_headP,Transformer matched +P/head loss,Christchurch,0.9,0.7111111111111111,38.6130522884474,18.822342274080043,225,15
+transformer_headP,Transformer matched +P/head loss,Christchurch,0.95,0.7555555555555555,47.63347438775596,21.681166213081852,225,15
+transformer_headP,Transformer matched +P/head loss,KFS-TCUA,0.9,0.5333333333333333,242.57585586076863,173.51849420028017,15,1
+transformer_headP,Transformer matched +P/head loss,KFS-TCUA,0.95,0.8666666666666667,301.7958928818147,202.6623024384152,15,1
+transformer_headP,Transformer matched +P/head loss,KFS-TCUI,0.9,0.62,489.2540710881352,182.9024648463225,300,20
+transformer_headP,Transformer matched +P/head loss,KFS-TCUI,0.95,0.7466666666666667,550.2689925401112,207.08973184523984,300,20
+transformer_headP,Transformer matched +P/head loss,LEAP-2017,0.9,0.6980392156862745,254.31438390896275,48.709299837682615,255,17
+transformer_headP,Transformer matched +P/head loss,LEAP-2017,0.95,0.8627450980392157,303.6978514469848,54.491757763153615,255,17
+transformer_headP,Transformer matched +P/head loss,internal,0.9,0.8727891156462585,347.84246653938465,177.19783333750536,1470,490
+transformer_headP,Transformer matched +P/head loss,internal,0.95,0.927891156462585,411.87578632558194,207.60483456178585,1470,490

@@ -1,0 +1,101 @@
+source,reference,comparator,metric,ratio,ratio_lo,ratio_hi,tests,events,curve_tests_reference,curve_tests_comparator,valid_draws,ci_unit,draws
+Adapazari,DPI-EVT +A,Transformer +cummax,curve_rmse,0.9317418668930108,0.8749674771033005,0.9605457543932706,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Transformer +cummax,onset_logmae,0.377864313316807,0.313114140222635,0.4466994566957176,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT,Transformer +cummax,curve_rmse,1.011779580800672,0.9724807172176152,1.080678154445342,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT,Transformer +cummax,onset_logmae,0.5835174821612839,0.4930146450954263,0.6795835040151803,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,EVT-NeuralSSM,curve_rmse,0.9103140329031,0.866197250175002,0.9324746416637232,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,EVT-NeuralSSM,onset_logmae,0.9690016234358572,0.8204202609108728,1.1776570278255802,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Transformer +A,curve_rmse,0.962085474460486,0.9086187755559042,0.9964930845193092,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Transformer +A,onset_logmae,0.6651974309024808,0.523424498787284,0.8537391529136287,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Time-warped Transformer/GBM,curve_rmse,0.970237769201429,0.934283304423451,0.9949191569473932,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Time-warped Transformer/GBM,onset_logmae,1.0897437707818922,0.9643549197142764,1.2389959826418393,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Threshold-projected Transformer/GBM,curve_rmse,0.9530668886707584,0.9112083174861614,0.9745240022118792,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Threshold-projected Transformer/GBM,onset_logmae,1.0922075508696727,0.9652756736410162,1.2434410320647131,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Transformer matched +A/crossing loss,curve_rmse,0.915080389788852,0.8511660745619303,0.9593621154516072,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,Transformer matched +A/crossing loss,onset_logmae,0.563579200515953,0.4422329178425906,0.7275047706122612,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT,Transformer matched +P/crossing loss,curve_rmse,0.969301311098989,0.9330927415943744,1.032668922877884,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT,Transformer matched +P/crossing loss,onset_logmae,0.7670839937278979,0.6387741959366391,0.9119344549526878,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,Transformer matched +P/crossing loss,Transformer matched +P/head loss,curve_rmse,0.9662359286110732,0.9557380527286192,0.976364511096432,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,Transformer matched +P/crossing loss,Transformer matched +P/head loss,onset_logmae,1.2433570735883686,1.1615661784846956,1.3431489218417434,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,curve_rmse,1.058231702673594,1.023456364106386,1.1028395852076411,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Adapazari,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,onset_logmae,0.7638807554930073,0.6658738964355803,0.8770727181046257,54,46,53,53,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Transformer +cummax,curve_rmse,0.8261423804947997,0.5394415544672975,0.9393405765619364,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Transformer +cummax,onset_logmae,0.4339744976767098,0.3196160671955425,0.6045953647003576,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT,Transformer +cummax,curve_rmse,1.0887370406084538,0.9139224003421056,2.092717518768675,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT,Transformer +cummax,onset_logmae,0.8031312835828833,0.5604138062849693,1.1363706303771377,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,EVT-NeuralSSM,curve_rmse,0.8892689165299293,0.6270806763310542,1.001473747984888,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,EVT-NeuralSSM,onset_logmae,1.2302743269871417,0.8146433349771199,1.8451085875996904,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Transformer +A,curve_rmse,0.8374588870414655,0.5896994347108061,0.9913685698011274,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Transformer +A,onset_logmae,0.8613968487526117,0.5092422409566268,1.9378696987727289,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Time-warped Transformer/GBM,curve_rmse,0.9346365590892818,0.7153110717973443,1.165453020787145,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Time-warped Transformer/GBM,onset_logmae,1.4807663548126044,1.0654349508501246,1.997514227626774,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Threshold-projected Transformer/GBM,curve_rmse,0.8580303648171747,0.6072869687986074,1.0256302428588495,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Threshold-projected Transformer/GBM,onset_logmae,1.4928231604985314,1.0696601271826678,2.0214493941188203,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Transformer matched +A/crossing loss,curve_rmse,0.7571648298708494,0.5077973709813386,0.8766330289067525,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,Transformer matched +A/crossing loss,onset_logmae,0.865708118935417,0.4968277406209669,2.2538164989683436,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT,Transformer matched +P/crossing loss,curve_rmse,1.0379251695222804,0.876700707419674,1.9051045252412169,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT,Transformer matched +P/crossing loss,onset_logmae,1.230585955780669,0.8837949108233647,1.6461036939175864,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,Transformer matched +P/crossing loss,Transformer matched +P/head loss,curve_rmse,0.947173502529794,0.9367629513457738,1.0094057207531375,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,Transformer matched +P/crossing loss,Transformer matched +P/head loss,onset_logmae,1.083486049639748,0.9661840184904862,1.238119972819978,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,curve_rmse,0.9219812527896778,0.5210637575371422,1.0657417289206084,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+Christchurch,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,onset_logmae,0.5908722522217957,0.5133069462104869,0.6847365563132225,21,15,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Transformer +cummax,curve_rmse,1.2065676846934843,1.1317936895433554,1.2925637557810137,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Transformer +cummax,onset_logmae,0.5511453823994134,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT,Transformer +cummax,curve_rmse,1.2008916296101062,1.1295389786838363,1.2898714848645871,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT,Transformer +cummax,onset_logmae,0.6185314497694644,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,EVT-NeuralSSM,curve_rmse,1.0458704812240809,1.0091672830348548,1.0740103554937714,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,EVT-NeuralSSM,onset_logmae,0.9138549830160604,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Transformer +A,curve_rmse,1.2379146321759618,1.1570566321163098,1.3194931699751709,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Transformer +A,onset_logmae,0.5321783926594457,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Time-warped Transformer/GBM,curve_rmse,0.9993444828778616,0.9501605985252176,1.0529270134005024,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Time-warped Transformer/GBM,onset_logmae,0.9799464433369665,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Threshold-projected Transformer/GBM,curve_rmse,1.127212199238626,1.073159197828952,1.1805836196989554,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Threshold-projected Transformer/GBM,onset_logmae,0.9810126380385652,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Transformer matched +A/crossing loss,curve_rmse,1.1124913455046497,1.0461003361800012,1.1847410684398556,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,Transformer matched +A/crossing loss,onset_logmae,0.7693679401992305,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT,Transformer matched +P/crossing loss,curve_rmse,1.2184307269270012,1.1309405050745251,1.3135989473078855,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT,Transformer matched +P/crossing loss,onset_logmae,0.713304963132138,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,Transformer matched +P/crossing loss,Transformer matched +P/head loss,curve_rmse,0.9737929002877164,0.9568782442479816,1.0032901846200648,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,Transformer matched +P/crossing loss,Transformer matched +P/head loss,onset_logmae,1.0256662783856414,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,curve_rmse,1.0689509197820226,1.005639460716166,1.1415551596227949,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUA,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,onset_logmae,0.6874777314539806,,,14,1,14,14,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Transformer +cummax,curve_rmse,0.9738929157364328,0.898429189740044,1.0426344041145907,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Transformer +cummax,onset_logmae,0.5168138959064977,0.4369522874644244,0.6076132824645122,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT,Transformer +cummax,curve_rmse,1.0749625890054912,0.9977553426517032,1.1838432073359144,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT,Transformer +cummax,onset_logmae,0.5344632418948286,0.4202404761761736,0.6575925863651172,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,EVT-NeuralSSM,curve_rmse,1.0469492429642586,0.9960189839622292,1.109589551907684,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,EVT-NeuralSSM,onset_logmae,0.8641942239204861,0.7334992596886285,0.9998900397422524,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Transformer +A,curve_rmse,1.0663493759943337,0.9846021120054896,1.1462520495116522,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Transformer +A,onset_logmae,0.5018684467730306,0.4111271111942323,0.6150001231645634,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Time-warped Transformer/GBM,curve_rmse,0.7793448545165292,0.7003098282788892,0.837072891910667,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Time-warped Transformer/GBM,onset_logmae,0.6339314712245838,0.501843650143712,0.7989801616261353,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Threshold-projected Transformer/GBM,curve_rmse,0.9746864126144328,0.915883450457036,1.0414666210014305,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Threshold-projected Transformer/GBM,onset_logmae,0.6341186611676654,0.5019085225346085,0.7992405362265601,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Transformer matched +A/crossing loss,curve_rmse,0.978199651655465,0.9082595098100452,1.075447801560974,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,Transformer matched +A/crossing loss,onset_logmae,0.8279395379738129,0.6571362278831846,1.0550575909998146,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT,Transformer matched +P/crossing loss,curve_rmse,1.1290712839969372,1.0433390154338658,1.2443742526156216,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT,Transformer matched +P/crossing loss,onset_logmae,0.638928929679474,0.4934259996940239,0.7995868018350547,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,Transformer matched +P/crossing loss,Transformer matched +P/head loss,curve_rmse,0.9309780699009044,0.9134615049180006,0.9582426167600098,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,Transformer matched +P/crossing loss,Transformer matched +P/head loss,onset_logmae,1.021314305294614,0.9962160265712362,1.0418727372754792,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,curve_rmse,1.397814347139965,1.2273871813876438,1.6327603594949072,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+KFS-TCUI,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,onset_logmae,0.8632624598959173,0.7601475316927119,1.0321003564450286,20,20,20,20,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Transformer +cummax,curve_rmse,0.9372266606433318,0.8582715249750054,1.126553002387233,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Transformer +cummax,onset_logmae,0.4763763292638623,0.3970215011523241,0.5638878375534044,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT,Transformer +cummax,curve_rmse,1.5010988206485814,1.1398422855143684,2.3402050218227366,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT,Transformer +cummax,onset_logmae,0.7058736830367762,0.5859101721800102,0.8748062687370844,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,EVT-NeuralSSM,curve_rmse,0.9598858472024736,0.8760624991805882,1.1563668855965186,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,EVT-NeuralSSM,onset_logmae,1.1185540846583717,0.9557051496824096,1.3303387910693565,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Transformer +A,curve_rmse,0.9945477893481648,0.9159483713611182,1.2400659529357654,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Transformer +A,onset_logmae,0.6528104690375643,0.5338463500571539,0.8551988631770495,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Time-warped Transformer/GBM,curve_rmse,0.9116339730631052,0.7584195379736383,1.1985454595064526,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Time-warped Transformer/GBM,onset_logmae,0.8451956544374719,0.7140208979712563,0.9686475539763144,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Threshold-projected Transformer/GBM,curve_rmse,1.0249478963420124,0.9259132587262794,1.2809587128259436,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Threshold-projected Transformer/GBM,onset_logmae,0.8462809514085057,0.7146156803395537,0.9702340679883146,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Transformer matched +A/crossing loss,curve_rmse,0.994659243275424,0.8577828417748726,1.432290069490434,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,Transformer matched +A/crossing loss,onset_logmae,1.0916787104669134,0.8083316013313805,1.6205663502062582,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT,Transformer matched +P/crossing loss,curve_rmse,1.3675652228764557,1.0607763190573138,2.107295196858681,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT,Transformer matched +P/crossing loss,onset_logmae,0.9295554092269854,0.7580150590126141,1.1739132014121874,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,Transformer matched +P/crossing loss,Transformer matched +P/head loss,curve_rmse,1.0650275802813836,0.9984407025602036,1.201799788306167,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,Transformer matched +P/crossing loss,Transformer matched +P/head loss,onset_logmae,1.0390851206371976,0.979107833039442,1.1351097723997634,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,curve_rmse,0.739981009646547,0.53709237556463,1.0203567832347693,18,17,18,18,20000,"test within source, all 15 predictions retained",20000
+LEAP-2017,DPI-EVT +A,DPI-EVT +A/no reciprocal drift,onset_logmae,0.6766971114754055,0.6094693904641846,0.7638774554367431,18,17,18,18,20000,"test within source, all 15 predictions retained",20000

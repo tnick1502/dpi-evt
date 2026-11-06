@@ -1,0 +1,49 @@
+[project]
+name = "dpi-evt"
+version = "0.1.0"
+description = "Prefix-conditioned pore-pressure accumulation and threshold-time forecasting"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Nikita R. Tishin", email = "tnick1502@mail.ru"}]
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "numpy==2.4.3",
+    "scipy>=1.17.1,<1.18",
+    "pandas==3.0.2",
+    "scikit-learn>=1.8.0,<1.9",
+    "torch>=2.10.0,<2.11",
+    "catboost>=1.2.10,<1.3",
+    "matplotlib>=3.10.9,<3.11",
+    "pyarrow>=24.0.0,<25",
+    "joblib>=1.5.3,<1.6",
+    "xlrd>=2.0.2,<3",
+    "openpyxl>=3.1,<4",
+]
+
+[project.urls]
+Repository = "https://github.com/tnick1502/dpi-evt"
+
+[build-system]
+requires = ["poetry-core>=2.0,<3.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+    {include = "dpi_evt", from = "src"},
+    {include = "extval", from = "external_validation"},
+]
+
+[tool.poetry.group.notebooks.dependencies]
+jupyterlab = ">=4.4,<5"
+ipykernel = "7.2.0"
+nbformat = "5.10.4"
+nbclient = "0.10.4"
+nbconvert = "7.17.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8,<10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
